@@ -1,0 +1,85 @@
+body{
+    background-color: #e2c2a6;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: sienna;
+}
+
+.add{
+    display: flex;
+    margin-left: 150px;
+    background-color: sienna;
+    color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 10%;
+    padding: 15px;
+    cursor: pointer;
+}
+.add:hover{
+    color: #e2c2a6;
+}
+
+.deleteAll{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 10px;
+    background-color: sienna;
+    color: white;
+    font-size: 13px;
+    border: none;
+    border-radius: 10%;
+    padding: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+.deleteAll:hover{
+    color: #e2c2a6;
+}
+
+.note{
+    /*background-color: #fff;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 30px 20px;
+    height: 400px;
+    width: 400px;
+    */
+}
+.tools{
+    background-color: sienna;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.edit{
+    background-color: transparent;
+    padding: 2px;
+    margin-right: 10px;
+    color: #fff;
+    cursor: pointer;
+    border-style: none;
+}
+.delete{
+    background-color: transparent;
+    padding: 2px;
+    color: #fff;
+    cursor: pointer;
+    border-style: none;
+}
+textarea{
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 342px;
+    width: 360px;
+    padding: 20px;
+}
